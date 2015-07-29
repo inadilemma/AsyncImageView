@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EED8D19D-79B3-4CB5-95D2-0BB85348963A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AsyncImageView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>10554523AFDFDF9F6A90D0E7C1D68740C621FFC0</key>
+		<string>https://github.com/inadilemma/AsyncImageView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AsyncImageView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>10554523AFDFDF9F6A90D0E7C1D68740C621FFC0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/inadilemma/AsyncImageView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>10554523AFDFDF9F6A90D0E7C1D68740C621FFC0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>10554523AFDFDF9F6A90D0E7C1D68740C621FFC0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AsyncImageView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
