@@ -1,0 +1,1 @@
+ const unsigned char AsyncImageViewTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:AsyncImageViewTests  PROJECT:AsyncImageView-1" "\n"; const double AsyncImageViewTestsVersionNumber __attribute__ ((used)) = (double)1.;

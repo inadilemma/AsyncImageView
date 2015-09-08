@@ -10,6 +10,7 @@
 		0CA795111B6892D40043B018 /* AsyncImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA795101B6892D40043B018 /* AsyncImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CA795171B6892D40043B018 /* AsyncImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA7950B1B6892D40043B018 /* AsyncImageView.framework */; };
 		0CA7951E1B6892D40043B018 /* AsyncImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA7951D1B6892D40043B018 /* AsyncImageViewTests.m */; };
+		0CF307CB1B9EB12F00D49D34 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF307CA1B9EB12F00D49D34 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		0CA795161B6892D40043B018 /* AsyncImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA7951C1B6892D40043B018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA7951D1B6892D40043B018 /* AsyncImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageViewTests.m; sourceTree = "<group>"; };
+		0CF307CA1B9EB12F00D49D34 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				0CA795101B6892D40043B018 /* AsyncImageView.h */,
+				0CF307CA1B9EB12F00D49D34 /* AsyncImageView.m */,
 				0CA7950E1B6892D40043B018 /* Supporting Files */,
 			);
 			path = AsyncImageView;
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF307CB1B9EB12F00D49D34 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +274,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -311,6 +315,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -329,6 +334,7 @@
 				INFOPLIST_FILE = AsyncImageView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -344,6 +350,7 @@
 				INFOPLIST_FILE = AsyncImageView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -398,6 +405,7 @@
 				0CA795231B6892D40043B018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CA795241B6892D40043B018 /* Build configuration list for PBXNativeTarget "AsyncImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +414,7 @@
 				0CA795261B6892D40043B018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

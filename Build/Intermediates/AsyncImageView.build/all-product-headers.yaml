@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mahmudul/OMProjects/QantasRebuild/AsyncImageView/Build/Products/Debug-iphonesimulator/AsyncImageView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AsyncImageView-Swift.h",
+          'external-contents': "/Users/mahmudul/OMProjects/QantasRebuild/AsyncImageView/Build/Products/Debug-iphonesimulator/AsyncImageView.framework/Headers/AsyncImageView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AsyncImageView.h",
+          'external-contents': "/Users/mahmudul/OMProjects/QantasRebuild/AsyncImageView/AsyncImageView/AsyncImageView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mahmudul/OMProjects/QantasRebuild/AsyncImageView/Build/Products/Debug-iphonesimulator/AsyncImageView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mahmudul/OMProjects/QantasRebuild/AsyncImageView/Build/Intermediates/AsyncImageView.build/Debug-iphonesimulator/AsyncImageView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
